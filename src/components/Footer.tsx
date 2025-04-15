@@ -1,4 +1,3 @@
-
 import { Phone, Mail, Github, Twitter, Linkedin, Facebook } from "lucide-react";
 
 const Footer = () => {
@@ -11,13 +10,13 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <span className="bg-voicenova-purple rounded-full p-1.5">
-                <Phone className="h-4 w-4 text-white" />
-              </span>
-              <span className="text-xl font-bold bg-gradient-to-r from-voicenova-purple to-voicenova-blue bg-clip-text text-transparent">
-                VoiceNova
-              </span>
+              <img 
+                src="/lovable-uploads/68a10e6e-1444-41ea-9bd4-22a376edaa2c.png" 
+                alt="VoiceNova AI Logo" 
+                className="h-10 w-auto"
+              />
             </div>
+            
             <p className="text-gray-400 mb-4">
               The next generation of AI-powered call handling for modern businesses.
             </p>

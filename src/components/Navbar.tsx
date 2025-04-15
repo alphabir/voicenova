@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,12 +12,11 @@ export const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <a href="/" className="flex items-center space-x-2">
-              <span className="bg-voicenova-purple rounded-full p-1.5">
-                <Phone className="h-5 w-5 text-white" />
-              </span>
-              <span className="text-xl font-bold bg-gradient-to-r from-voicenova-purple to-voicenova-blue bg-clip-text text-transparent">
-                VoiceNova
-              </span>
+              <img 
+                src="/lovable-uploads/68a10e6e-1444-41ea-9bd4-22a376edaa2c.png" 
+                alt="VoiceNova AI Logo" 
+                className="h-10 w-auto"
+              />
             </a>
           </div>
 
