@@ -52,6 +52,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+        // VoiceNova colors
+        voicenova: {
+          purple: {
+            DEFAULT: '#8B5CF6',
+            light: '#9b87f5',
+          },
+          blue: {
+            DEFAULT: '#0FA0CE',
+            light: '#33C3F0',
+          },
+          gray: {
+            DEFAULT: '#8E9196',
+            light: '#F1F1F1',
+            dark: '#222222',
+          },
+        },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
