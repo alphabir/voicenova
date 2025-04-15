@@ -14,7 +14,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/68a10e6e-1444-41ea-9bd4-22a376edaa2c.png" 
                 alt="VoiceNova AI Logo" 
-                className="h-16 w-auto"  // Increased height for better visibility
+                className="h-20 w-auto object-contain"  // Increased size and added object-contain
               />
             </div>
             
