@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,7 +16,7 @@ export const Navbar = () => {
               <img 
                 src="/lovable-uploads/68a10e6e-1444-41ea-9bd4-22a376edaa2c.png" 
                 alt="VoiceNova AI Logo" 
-                className="h-12 w-auto"  // Increased height to nearly match the header
+                className="h-16 w-auto"  // Increased height to match header height
               />
             </a>
           </div>
